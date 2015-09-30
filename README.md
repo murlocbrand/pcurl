@@ -1,4 +1,4 @@
-get a list of urls from [piratrad.io](https://piratrad.io)
+pcurl: get track list as urls from a [piratrad.io](https://piratrad.io) station
 
 install:  
  - `git clone https://github.com/murlocbrand/pcurl`
@@ -20,3 +20,6 @@ grep example:
 
 license:  
 MIT
+
+recommended:  
+[top 10 piratrad.io stations](https://piratrad.io/random)
