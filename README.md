@@ -1,5 +1,7 @@
 pcurl: get track list as urls from a [piratradio](https://piratrad.io) station
 
+*note: this is the 'tool' version*  
+
 install:  
  - `git clone https://github.com/murlocbrand/pcurl`
  - `cd pcurl`
