@@ -1,7 +1,8 @@
 get a list of urls from [piratrad.io](https://piratrad.io)
 
 install:  
- - `git clone ..`
+ - `git clone https://github.com/murlocbrand/pcurl`
+ - `cd pcurl`
  - `npm install`
 
 usage:  
