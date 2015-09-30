@@ -1,0 +1,16 @@
+{
+  "name": "pcurl",
+  "version": "0.0.1",
+  "description": "listify piratradio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/murlocbrand/pcurl"
+  "author": "Axel Smeets",
+  "license": "MIT",
+  "dependencies": {
+    "lz-string": "^1.4.4",
+    "request": "^2.64.0"
+  }
+}
