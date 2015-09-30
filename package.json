@@ -1,6 +1,6 @@
 {
   "name": "pirate-curl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "listify piratradio",
   "main": "pcurl.js",
   "scripts": {
