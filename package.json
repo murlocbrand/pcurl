@@ -2,11 +2,11 @@
   "name": "pcurl",
   "version": "0.0.1",
   "description": "listify piratradio",
-  "main": "index.js",
+  "main": "pcurl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/murlocbrand/pcurl"
+  "repository": "https://github.com/murlocbrand/pcurl",
   "author": "Axel Smeets",
   "license": "MIT",
   "dependencies": {
