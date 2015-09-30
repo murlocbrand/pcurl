@@ -2,7 +2,7 @@
   "name": "pirate-curl",
   "version": "0.0.3",
   "description": "listify piratradio",
-  "main": "index.js",
+  "main": "pcurl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
