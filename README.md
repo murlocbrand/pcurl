@@ -1,26 +1,33 @@
 pcurl: get track list as urls from a [piratradio](https://piratrad.io) station
 
-install:  
- - `git clone https://github.com/murlocbrand/pcurl`
- - `cd pcurl`
- - `npm install`
+*note: this is the npm version*  
+*note: this is a simple package*  
+*note: do not expect wonders*  
+
+install:
+ - `npm i pirate-curl --save`
 
 usage:  
-`node pcurl.js <stationUrl>`
-
-example output:  
 ```
-https://www.youtube.com/watch?v=xymjDyGIvQ4
-https://www.youtube.com/watch?v=lFpCJcsFFAc
-https://www.youtube.com/watch?v=LvwBDCb7bmM
+var pcurl = require('pirate-curl')
+
+pcurl('publicradio', function (error, list) {
+    // yippie!  
+})
 ```
 
-grep example:  
-`node pcurl.js publicradio | grep soundcloud`
+`console.log(list)`:  
+```
+[
+"https://www.youtube.com/watch?v=xymjDyGIvQ4",
+"https://www.youtube.com/watch?v=lFpCJcsFFAc",
+"https://www.youtube.com/watch?v=LvwBDCb7bmM"
+]
+```
 
 license:  
 MIT
 
-recommended:  
+recommended:
  - [top 10 piratradio stations](https://piratrad.io/random)
  - [cool api](https://api.piratrad.io)
