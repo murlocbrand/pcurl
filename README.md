@@ -1,4 +1,4 @@
-pcurl: get track list as urls from a [piratrad.io](https://piratrad.io) station
+pcurl: get track list as urls from a [piratradio](https://piratrad.io) station
 
 install:  
  - `git clone https://github.com/murlocbrand/pcurl`
@@ -22,4 +22,4 @@ license:
 MIT
 
 recommended:  
-[top 10 piratrad.io stations](https://piratrad.io/random)
+[top 10 piratradio stations](https://piratrad.io/random)
