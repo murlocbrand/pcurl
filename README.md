@@ -22,4 +22,5 @@ license:
 MIT
 
 recommended:  
-[top 10 piratradio stations](https://piratrad.io/random)
+ - [top 10 piratradio stations](https://piratrad.io/random)
+ - [cool api](https://api.piratrad.io)
