@@ -2,7 +2,7 @@
 var lz = require('lz-string'),
     req = require('request')
 
-module.export = function pcurl (station, callback) {
+module.exports = function pcurl (station, callback) {
     var url = 'https://piratrad.io/' + station + '/tracks'
     req(url, function (err, res, body) {
         if (err) {
