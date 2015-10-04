@@ -11,6 +11,13 @@ usage:
 ```
 var pcurl = require('pirate-curl')
 
+// pcurl(station, opts, callback) or
+// pcurl(station, callback)
+
+// opts is an array that decides what output you get. it defaults to 'url' only.
+// possible values: 'url', 'title', 'support'
+// e.g: pcurl("publicradio", ['url', 'support'], function (error, list) { })
+
 pcurl('publicradio', function (error, list) {
     // yippie!  
 })
@@ -19,9 +26,9 @@ pcurl('publicradio', function (error, list) {
 `console.log(list)`:  
 ```
 [
-"https://www.youtube.com/watch?v=xymjDyGIvQ4",
-"https://www.youtube.com/watch?v=lFpCJcsFFAc",
-"https://www.youtube.com/watch?v=LvwBDCb7bmM"
+    { url: "https://www.youtube.com/watch?v=xymjDyGIvQ4" },
+    { url: "https://www.youtube.com/watch?v=lFpCJcsFFAc" },
+    { url: "https://www.youtube.com/watch?v=LvwBDCb7bmM" }
 ]
 ```
 
