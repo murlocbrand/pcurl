@@ -22,8 +22,8 @@ module.exports = function pcurl (station, opts, callback) {
                 var track = JSON.parse(list[i])
                 var parsedTrack = {}
 
-                for (var i = 0; i < opts.length; i++)
-                    parsedTrack[opts[i]] = lz.decompressFromUTF16(track[opts[i]])
+                for (var j = 0; j < opts.length; j++)
+                    parsedTrack[opts[j]] = lz.decompressFromUTF16(track[opts[j]])
 
                 parsed.push(parsedTrack)
             } catch (e) {}
